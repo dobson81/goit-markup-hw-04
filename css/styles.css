@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.darkGray {
+  background: var(--darkGray);
+  background-image: url('images/img10.jpg');
+  background-size: cover;
+}
 :root {
   --white: #ffffff;
   --bright: #f5f4fa;
@@ -23,7 +27,6 @@ body {
 .wrapper {
   background-color: var(--white);
   margin: auto;
-  width: 1600px;
 }
 .container {
   width: 1200px;
@@ -91,7 +94,7 @@ body {
 .contacts {
   list-style-type: none;
   display: flex;
-  margin-left: 371px;
+  margin-left: 345px;
   font-size: 14px;
   font-weight: 500;
   color: var(--gray);
@@ -114,18 +117,19 @@ body {
   color: var(--blue);
 }
 .big-title {
-  height: 600px;
   display: flex;
   background: var(--darkGray);
   align-items: center;
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding-bottom: 106px;
+  padding-top: 106px;
 }
 
 .title {
   width: 696px;
-  height: 120px;
+
   color: var(--white);
 
   font-size: 44px;
@@ -197,12 +201,10 @@ body {
   display: flex;
   margin-top: 50px;
   margin-left: 215px;
+  width: 1200px;
+  justify-content: space-between;
+}
 
-  padding: 0;
-}
-.images-studio-top li {
-  padding-right: 30px;
-}
 .team {
   background: var(--bright);
 }
@@ -220,7 +222,7 @@ body {
   list-style-type: none;
   margin-top: 50px;
   display: flex;
-  width: 1170px;
+  width: 1200px;
   justify-content: space-between;
 }
 .list-item {
@@ -247,7 +249,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--gray);
-  padding-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .footer {
@@ -274,7 +276,7 @@ body {
 
   font-size: 14px;
   margin-top: 20px;
-  line-height: 1.7;
+  line-height: 1.5;
   padding-bottom: 60px;
 }
 .footer-address .first-item {
@@ -289,7 +291,6 @@ body {
 
   font-style: normal;
   letter-spacing: 0.03em;
-  line-height: 1.7;
 }
 
 .footer-address > .second-item > a {
@@ -297,7 +298,6 @@ body {
   letter-spacing: 0.03em;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
-  line-height: 1.7;
 }
 
 .footer-address a:focus {
@@ -309,7 +309,6 @@ body {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.03em;
-  line-height: 1.7;
 }
 .footer-address a:hover {
   color: var(--blue);
@@ -339,6 +338,8 @@ body {
 .button-item:hover {
   cursor: pointer;
   background-color: var(--blue);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.1);
 }
 .button-item:focus {
   background-color: var(--blue);
@@ -355,6 +356,10 @@ body {
 }
 .portfolio-item img {
   vertical-align: middle;
+}
+.portfolio-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .images-portfolio h3 {
@@ -383,6 +388,102 @@ body {
   border-left: 1px solid #eeeeee;
   padding-top: 20px;
 }
+.images-portfolio:hover {
+}
 .envelope {
   margin-right: 10px;
+}
+.smartphone {
+  margin-right: 10px;
+}
+.antenna {
+  width: 270px;
+  height: 120px;
+  background-color: var(--bright);
+  padding-bottom: 25px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+.probny {
+  /*wstawić to zdjecie*/
+  width: 1600px;
+  margin: auto;
+  background-image: url('images/image10.jpg');
+}
+.icons-social {
+  width: 206px;
+  height: 56px;
+  margin-left: 32px;
+  margin-bottom: 18px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-twitter {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-facebook {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-instagram {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-linkedin {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+
+  display: flex; /*ustawic bialy kolor ikon*/
+  align-items: center;
+  justify-content: center;
+}
+.circle:hover {
+  background-color: #2196f3;
+}
+.ourClients {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container-icons {
+  display: flex;
+
+  justify-content: space-between;
+}
+.client {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 17.71px;
+  padding-bottom: 14.25px;
 }
