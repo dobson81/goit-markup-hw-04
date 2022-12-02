@@ -111,30 +111,27 @@ body {
   color: var(--gray);
   line-height: 1.17;
 }
-.contacts > li > a:hover {
+/* .contacts a:hover {
+  color: var(--blue);
+} */
+.contacts a:focus {
   color: var(--blue);
 }
-.contacts > li > a:focus {
+.mail-icon-nav:hover {
   color: var(--blue);
+  fill: var(--blue);
+}
+.tel-icon-nav:hover {
+  color: var(--blue);
+  fill: var(--blue);
 }
 
-.envelope:hover {
-  fill: var(--blue);
-}
 .envelope {
   margin-right: 10px;
-  fill: var(--gray);
-}
-.envelope:hover {
-  fill: var(--blue);
-}
-.smartphone:hover {
-  fill: var(--blue);
 }
 
 .smartphone {
   margin-right: 10px;
-  fill: var(--gray);
 }
 
 .big-title {
