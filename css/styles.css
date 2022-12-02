@@ -116,6 +116,26 @@ body {
 .contacts > li > a:focus {
   color: var(--blue);
 }
+
+.envelope:hover {
+  fill: var(--blue);
+}
+.envelope {
+  margin-right: 10px;
+  fill: var(--gray);
+}
+.envelope:hover {
+  fill: var(--blue);
+}
+.smartphone:hover {
+  fill: var(--blue);
+}
+
+.smartphone {
+  margin-right: 10px;
+  fill: var(--gray);
+}
+
 .big-title {
   display: flex;
   background: var(--darkGray);
@@ -251,7 +271,8 @@ body {
   color: var(--gray);
   margin-bottom: 16px;
 }
-
+.icon-social-links {
+}
 .icons-social {
   width: 206px;
   height: 56px;
@@ -512,12 +533,6 @@ body {
   padding-top: 20px;
 }
 
-.envelope {
-  margin-right: 10px;
-}
-.smartphone {
-  margin-right: 10px;
-}
 .antenna {
   width: 270px;
   height: 120px;
@@ -525,4 +540,19 @@ body {
   padding-bottom: 25px;
   padding-top: 25px;
   margin-bottom: 25px;
+}
+footer.instagram:hover {
+  fill: var(--white);
+}
+.proba {
+  fill: blue;
+}
+.proba:hover {
+  fill: red;
+}
+.linkedin-icon-john {
+  fill: #afb1b8;
+}
+.linkedin-icon-john:hover {
+  fill: var(--white);
 }
