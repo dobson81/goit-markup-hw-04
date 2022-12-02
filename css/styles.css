@@ -18,6 +18,7 @@
   --gray: #757575;
   --darkGray: #2f303a;
   --whiteGray: #ececec;
+  --GreyGray: #afb1b8;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -430,7 +431,7 @@ body {
   line-height: 1.17;
 
   font-weight: 700;
-  letter-spacing: 3%;
+  letter-spacing: 0.3px;
 }
 .footer-icons {
   width: 206px;
@@ -548,11 +549,35 @@ footer.instagram:hover {
   fill: blue;
 }
 .proba:hover {
+  /*usunac ten kolor*/
   fill: red;
 }
 .linkedin-icon-john {
-  fill: #afb1b8;
+  fill: var(--GreyGray);
 }
 .linkedin-icon-john:hover {
   fill: var(--white);
 }
+.facebook-icon-john {
+  /*zmienic nazwe klasy*/
+  fill: var(--GreyGray);
+}
+.facebook-icon-john:hover {
+  fill: var(--white);
+}
+.twitter-icon-john {
+  fill: var(--GreyGray);
+}
+.twitter-icon-john:hover {
+  fill: var(--white);
+}
+.instagram-icon-john {
+  fill: var(--GreyGray);
+}
+.instagram-icon-john:hover {
+  fill: var(--white);
+}
+.bottom-icons {
+  fill: var(--white);
+}
+/*zrobić porządek*/
