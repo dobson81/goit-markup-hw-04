@@ -570,3 +570,13 @@ footer.instagram:hover {
   fill: var(--white);
 }
 /*zrobić porządek*/
+.probaZdjecia {
+  width: 1000px;
+  height: 400px;
+  background-image: url(images/img10.jpg);
+  background-size: cover;
+}
+.probaZdjecia h2 {
+  font-size: 60px;
+  color: pink;
+}
