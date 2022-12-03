@@ -3,11 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.darkGray {
-  background: var(--darkGray);
-  background-image: url('images/img10.jpg');
-  background-size: cover;
-}
+
 :root {
   --white: #ffffff;
   --bright: #f5f4fa;
@@ -24,6 +20,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--lightGray);
   color: var(--veryDark);
+  background-image: url('images/img10.jpg');
 }
 .wrapper {
   background-color: var(--white);
@@ -133,7 +130,9 @@ body {
 .smartphone {
   margin-right: 10px;
 }
-
+.darkGray {
+  background: var(--darkGray);
+}
 .big-title {
   display: flex;
   background: var(--darkGray);
@@ -269,8 +268,7 @@ body {
   color: var(--gray);
   margin-bottom: 16px;
 }
-.icon-social-links {
-}
+
 .icons-social {
   width: 206px;
   height: 56px;
@@ -525,7 +523,7 @@ body {
 .images-description {
   padding-left: 24px;
   padding-bottom: 20px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee; /*dodac zmienne*/
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   padding-top: 20px;
@@ -542,13 +540,7 @@ body {
 footer.instagram:hover {
   fill: var(--white);
 }
-.proba {
-  fill: blue;
-}
-.proba:hover {
-  /*usunac ten kolor*/
-  fill: red;
-}
+
 .linkedin-icon-john {
   fill: var(--GreyGray);
 }
