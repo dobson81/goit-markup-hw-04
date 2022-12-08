@@ -335,13 +335,56 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 100%;
-  cursor: pointer;
-  display: flex; /*ustawic bialy kolor ikon*/
+  /* cursor: pointer; */
+  display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .circle:hover {
   background-color: #2196f3;
+  fill: var(--white);
+}
+.circle:hover svg {
+  fill: var(--white);
+}
+
+.linkedin-icon-john {
+  fill: var(--GreyGray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linkedin-icon-john:hover {
+  fill: var(--white);
+}
+.facebook-icon-john {
+  /*zmienic nazwe klasy*/
+  fill: var(--GreyGray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.facebook-icon-john:hover {
+  fill: var(--white);
+}
+.twitter-icon-john {
+  fill: var(--GreyGray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twitter-icon-john:hover {
+  fill: var(--white);
+}
+.instagram-icon-john {
+  fill: var(--GreyGray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.instagram-icon-john:hover {
+  fill: var(--white);
 }
 
 .ourClients {
@@ -572,43 +615,6 @@ footer.instagram:hover {
   fill: var(--white);
 }
 
-.linkedin-icon-john {
-  fill: var(--GreyGray);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.linkedin-icon-john:hover {
-  fill: var(--white);
-}
-.facebook-icon-john {
-  /*zmienic nazwe klasy*/
-  fill: var(--GreyGray);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.facebook-icon-john:hover {
-  fill: var(--white);
-}
-.twitter-icon-john {
-  fill: var(--GreyGray);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.twitter-icon-john:hover {
-  fill: var(--white);
-}
-.instagram-icon-john {
-  fill: var(--GreyGray);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.instagram-icon-john:hover {
-  fill: var(--white);
-}
 .bottom-icons {
   fill: var(--white);
   display: flex;
